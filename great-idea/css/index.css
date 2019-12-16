@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 800px;
+	margin: 0px auto;
+}
+
+header {
+	display: flex;
+}
+
+nav {
+	display:flex;
+	/* justify-content: space-between; */
+}
+
+nav a {
+	/* display: inline-block; */
+	text-decoration: none;
+	width: 80px;
+}
+
+.logo {
+	/* display:inline-block; */
+	margin-left: 114px;
+}
+
+.top-content {
+	text-align: center;
+	/* vertical-align: top; */
+	margin: 50px 0px;
+	display: flex;
+}
+.top-left {
+	/* display: inline-block; */
+	margin: 50px 32px 0px 32px;
+	vertical-align: top;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.button {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 0px 50px;
+	color: black;
+}
+
+.main-content {
+	/* display: inline-block; */
+	border-top: 1px solid black;
+	/* text-align: justify; */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.top-para {
+	width: 49.5%;
+	/* display: inline-block; */
+	padding-right: 10px;
+	margin: 30px 0px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-para {
+	width: 33%;
+	/* display: inline-block; */
+	padding-right: 10px;
+	margin: 30px 0px;
+}
+
+.contact-section {
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+
+address {
+	width: 18%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 70px;
+}
